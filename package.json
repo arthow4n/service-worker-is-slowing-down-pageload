@@ -1,0 +1,27 @@
+{
+  "name": "service-worker-is-slowing-down-pageload",
+  "version": "1.0.0",
+  "description": "Demostrates that service worker is actually delaying the pageload",
+  "main": "test-sw-benchmark.js",
+  "scripts": {
+    "test": "node test-sw-benchmark.js",
+    "postinstall": "npm test"
+  },
+  "engines": {
+    "node": ">= 8.9.0"
+  },
+  "keywords": [
+    "serviceworker",
+    "benchmark"
+  ],
+  "author": "Aysh Su (hevark@msn.com) <https://github.com/arthow4n>",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/npm/npm.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "progress": "^2.0.0",
+    "puppeteer": "^1.0.0"
+  }
+}
