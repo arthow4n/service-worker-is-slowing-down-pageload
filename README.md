@@ -1,6 +1,6 @@
 # service-worker-is-slowing-down-pageload
 
-Demostrates that service worker is actually delaying the pageload
+Demostrates that service worker is actually delaying the pageload by testing against https://jakearchibald.github.io/service-worker-benchmark/
 
 ## Running
 
